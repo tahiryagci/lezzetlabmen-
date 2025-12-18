@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f2f4f7;
+    color: #333;
+}
+
+/* Hero alan */
+.hero {
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+/* Ana alan */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Kart yapısı */
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* Öğrenci menüsü vurgusu */
+.highlight {
+    border-left: 6px solid #ff9800;
+}
+
+/* Menü satırları */
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.menu-row:last-child {
+    border-bottom: none;
+}
+
+/* Combo yapısı */
+.menu-item {
+    background: #f9fafb;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    display: block;
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-item strong {
+    font-size: 16px;
+    color: #000;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* Mobil */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
